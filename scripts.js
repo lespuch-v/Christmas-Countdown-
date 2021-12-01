@@ -1,9 +1,11 @@
+
 const timeEl = document.getElementById("countdown-display");
 
 const countDownDate = new Date("Dec 25, 2021 00:00:00").getTime();
 
+
 // Update the count down every 1 second
-const myInterval = setInterval(function () {
+const myInterval = setInterval(window.onload = function () {
   // Get today's date and time
   const now = new Date().getTime();
 
@@ -28,5 +30,3 @@ const myInterval = setInterval(function () {
     timeEl.innerHTML = "Christmas!!!";
   }
 }, 1000);
-
-
