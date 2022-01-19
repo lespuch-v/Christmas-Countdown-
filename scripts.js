@@ -1,7 +1,7 @@
 
 const timeEl = document.getElementById("countdown-display");
 
-const countDownDate = new Date("Dec 25, 2021 00:00:00").getTime();
+const countDownDate = new Date("Dec 25, 2022 00:00:00").getTime();
 
 
 // Update the count down every 1 second
