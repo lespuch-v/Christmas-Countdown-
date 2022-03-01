@@ -22,7 +22,7 @@ const myInterval = setInterval(window.onload = function () {
 
   // Display the result in the element with id="demo"
   timeEl.innerHTML =
-    days + "days " + hours + "h " + minutes + " min " + seconds + "s ";
+    days + " days " + hours + "h " + minutes + " min " + seconds + "s ";
 
   // If the count down is finished, write some text
   if (minus < 0) {
